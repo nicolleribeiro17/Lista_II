@@ -15,7 +15,7 @@ class Pessoa():
 
 class PessoaFisica(Pessoa):
     def __init__(self, cpf, name, age, rg, type):
-        #Não precisa inicializar as que vieram da outra classe, o super inicializa elas
+        #Não precisa inicializar as que vieram da outra classe, o super inicializa elas referenciando a classe base
         self.type = type
 
         super().__init__(cpf, name, age, rg)
