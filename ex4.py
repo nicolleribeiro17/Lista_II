@@ -22,7 +22,7 @@ class Professor():
         if nome == 'Silvia':
             return self.__get_secret_acess()
         else:
-            return ('Você não tem acesso!')
+            return ('Você não tem acesso')
 
 
 professor = Professor('Silvia', '44', '5000')
